@@ -17,6 +17,9 @@
         android:theme="@style/Theme.RealTimeCrop"
         tools:targetApi="31">
         <activity
+            android:name=".DisplayResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
